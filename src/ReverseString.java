@@ -12,12 +12,12 @@ public class ReverseString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("enter string: ");
+        System.out.print("Enter string: ");
         String s = sc.nextLine();
 
         String result = reverse(s);
 
-        System.out.println("reversed = " + result);
+        System.out.println("Reversed = " + result);
 
         sc.close();
     }
