@@ -1,4 +1,4 @@
-public class FibonacciCallsCount {
+public class Fibonacci {
 
     static int callCount = 0;
 
