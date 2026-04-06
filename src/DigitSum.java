@@ -13,12 +13,12 @@ public class DigitSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("enter number: ");
+        System.out.print("Enter number: ");
         int n = sc.nextInt();
 
         int result = sum(n);
 
-        System.out.println("sum of digits = " + result);
+        System.out.println("Sum of digits = " + result);
 
         sc.close();
     }

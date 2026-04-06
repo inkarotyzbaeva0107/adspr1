@@ -5,19 +5,19 @@ public class BigFactorial {
 
     static BigInteger factorial(int n) {
         if (n == 0 || n == 1) {
-            return BigInteger.ONE; // ну типо 0! и 1! это 1
+            return BigInteger.ONE;
         }
-        return BigInteger.valueOf(n).multiply(factorial(n - 1)); // просто умножаем
+        return BigInteger.valueOf(n).multiply(factorial(n - 1));
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("enter number:");
+        System.out.println("Enter number:");
         int n = sc.nextInt();
 
         BigInteger res = factorial(n);
 
-        System.out.println("factorial = " + res);
+        System.out.println("Factorial = " + res);
     }
 }
